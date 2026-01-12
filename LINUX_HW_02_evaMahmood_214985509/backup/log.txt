@@ -1,0 +1,8 @@
+=== TASK LOG ===
+Wed Nov 12 22:23:48 IST 2025
+VERSION_ID="24.04"
+VERSION="24.04.3 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+Student Name And id: Eva Mahmood 214985509
+---------------
+[OK] System loaded successfully

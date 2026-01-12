@@ -1,0 +1,14 @@
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/bin/Debug/net8.0/Reporter
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/bin/Debug/net8.0/Reporter.deps.json
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/bin/Debug/net8.0/Reporter.runtimeconfig.json
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/bin/Debug/net8.0/Reporter.dll
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/bin/Debug/net8.0/Reporter.pdb
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/obj/Debug/net8.0/Reporter.GeneratedMSBuildEditorConfig.editorconfig
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/obj/Debug/net8.0/Reporter.AssemblyInfoInputs.cache
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/obj/Debug/net8.0/Reporter.AssemblyInfo.cs
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/obj/Debug/net8.0/Reporter.csproj.CoreCompileInputs.cache
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/obj/Debug/net8.0/Reporter.dll
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/obj/Debug/net8.0/refint/Reporter.dll
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/obj/Debug/net8.0/Reporter.pdb
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/obj/Debug/net8.0/Reporter.genruntimeconfig.cache
+/home/evamah/linux_course/05_Apps/Frameworks/PolyglotApp/Reporter/obj/Debug/net8.0/ref/Reporter.dll

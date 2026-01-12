@@ -1,0 +1,11 @@
+Source,OutputName,Quality,Frames
+sunset.jpg,img_1.gif,5,40
+nature.jpg,img_2.gif,50,35
+4
+Pinguin.jpg,img_4.gif,70,45
+errorpath/error,img_error.gif,5,5
+https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2F0%2Fb%2F5%2F3%2Fa%2F6%2F0b53a65cd1849ae5c32389840f93812ec14b9cd3.jpg&w=750&q=75,img_5.gif,70,35
+myphoto.jpg,img_6.gif,5,35
+sunset.jpg,5
+https://4kwallpapers.com/images/walls/thumbs_3t/1405.png,img_7.gif,70,34
+link.com/missing.jpg,error_test.gif,10,10

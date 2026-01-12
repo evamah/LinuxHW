@@ -1,0 +1,113 @@
+./CLIENT/CLIENT_3/url.txt
+./CLIENT/install.txt
+./CLIENT/CLIENT_2/output_2025-11-26_19-35-26.log
+./CLIENT/CLIENT_2/output_2025-11-26_19-35-29.log
+./CLIENT/CLIENT_2/output_2025-11-26_19-35-22.log
+./CLIENT/CLIENT_2/outputs.txt
+./CLIENT/CLIENT_2/output_2025-11-26_19-35-25.log
+./CLIENT/CLIENT_2/output_2025-11-26_19-35-28.log
+./CLIENT/CLIENT_1/output_2025-11-26_19-03-52.log
+./CLIENT/CLIENT_1/output_2025-11-26_19-03-45.log
+./CLIENT/CLIENT_1/outputs.txt
+./CLIENT/CLIENT_1/output.log
+./CLIENT/CLIENT_1/random.log
+./CLIENT/CLIENT_1/output_2025-11-26_19-03-51.log
+./CLIENT/CLIENT_1/output_2025-11-26_19-03-47.log
+./CLIENT/CLIENT_1/output_2025-11-26_19-03-50.log
+./SERVER/server.txt
+./SERVER/SERVER_1/Node.js
+./SERVER/SERVER_2/SERVER_2.js
+./allfiles.txt
+
+  390  mkdir -p Linux_HW_APT/{CLIENT/CLIENT_{1..3},SERVER/SERVER_{1..2}}
+  391  cd Linux_HW_APT/SERVER
+  392  node -v
+  393  sudo apt install nodejs npm
+  394  echo -e "Machine Name: $(hostname)" >> server.txt
+  395  echo -e "OS Version: $(grep VERSION /etc/os-release)" >> server.txt
+  396  echo -e "NodeJS Version: $(node -v)" >> server.txt
+  397  echo -e "User: $(whoami)\nTime: $(date)" >> server.txt
+  398  cd ..
+  399  cd CLIENT
+  400  sudo apt update && sudo apt install jq -y
+  401  sudo apt install curl -y
+  402  curl --version
+  403  jq --version
+  404  echo -e "CURL Version: $(curl --version | head -n 1)\nJQ Version: $(jq --version)" > install.txt
+  405  cd ../SERVER/SERVER_1
+  406  nano Node.js
+  407  touch Node.js
+  408  node Node.js
+  409  curl http://localhost:3000
+  410  cd SERVER/SERVER_1
+  411  cd Linux_HW_APT/SERVER/SERVER_1
+  412  Node.js
+  413  node Node.js
+  414  cd Linux_HW_APT/CLIENT/CLIENT_1
+  415  curl http://localhost:3000
+  416  g
+  417  curl http://localhost:3000 > output.log
+  418  curl http://localhost:3000 >> output.log
+  419  ls
+  420  curl http://localhost:3000 >> output.log
+  421  curl -s http://localhost:3000 | jq
+  422  curl -s http://localhost:3000 | jq > output.txt
+  423  curl -s http://localhost:3000 | jq > output.log
+  424  curl -s http://localhost:3000 | jq >> output.log
+  425  history
+  426  history
+  427  curl -s http://localhost:3000 | jq > output.txt 
+  428  curl -s http://localhost:3000 | jq > output.log
+  429  curl -s http://localhost:3000 | jq >> output.log
+  430  cat output.log
+  431  curl -s http://localhost:3000 > output_$(date +"%Y-%m-%d_%H-%M-%S").log
+  432  curl -s http://localhost:3000 | jq '.random' >> random.log
+  433  ls *.log 
+  434  cat ../install.txt
+  435  cat ../install.txt > output.txt
+  436  cd Linux_HW_APT/CLIENT/CLIENT_3
+  437  echo "https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/" > url.txt
+  438  curl $(https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/)
+  439  curl https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/
+  440  curl -s https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/ | jq -r '.[].url'
+  441  curl -s https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/ | jq -r '.[].url' > url.txt
+  442  curl https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/ | jq -r '.[].thumbnailUrl' > thumbnails.txt
+  443  wget -i thumbnails.txt
+  444  ping -c 3 google.com
+  445  sudo nano /etc/resolv.conf
+  446  sudo nano /etc/wsl.conf
+  447  wget -i thumbnails.txt
+  448  cat /etc/resolv.conf
+  449  cat /etc/wsl.conf
+  450  history > history.txt
+  451  wget -i https://via.placeholder.com/150/92c952
+  452  wsl --shutdown
+  453  wget -i https://via.placeholder.com/150/92c952
+  454  cat /etc/resolv.conf
+  455  ping -c 3 8.8.8.8
+  456  ping -c 3 google.com
+  457  ping via.placeholder.com
+  458  sed -i 's|https://via.placeholder.com/150/\(.*\)|https://placehold.co/150x150/\1|g' thumbnails.txt
+  459  wget -i thumbnails.txt
+  460  sed -i 's|https://via.placeholder.com/150/\(.*\)|https://placehold.co/150x150/\1/ffffff|g' thumbnails.txt
+  461  wget -i thumbnails.txt
+  462  sed -i 's|$|.png|' thumbnails.txt
+  463  wget -i thumbnails.txt
+  464  cut -d'/' -f5 thumbnails.txt > colors.txt
+  465  sed 's|^|https://placehold.co/150x150/|' colors.txt > new_urls.txt
+  466  n=1
+  467  while read url; do     wget -O thumb_$n.png "$url";     n=$((n+1)); done < new_urls.txt
+  468  wsl --shutdown
+  469  sudo apt install wsl
+  470  cd Linux_HW_APT/CLIENT/CLIENT_2
+  471  curl -s http://localhost:4000 > "output_$(date +"%Y-%m-%d_%H-%M-%S").log"
+  472  ls *.log >> outputs.txt
+  473  cat *.log >> outputs.txt
+  474  cd Linux_HW_APT/SERVER/SERVER_2
+  475  hostname && uptime && lsb_release -d
+  476  touch SERVER_2.js
+  477  node SERVER_2.js
+  478  node Node.js
+  479  cd Linux_HW_APT
+  480  find . -type f > allfiles.txt
+  481  history | tail -120 >> allfiles.txt

@@ -1,0 +1,676 @@
+    1  ls
+    2  clear
+    3  nano ex1
+    4  ls
+    5  clear
+    6  mv ex1
+    7  pico ex1
+    8  ls
+    9  clear
+   10  ls
+   11  clear
+   12  code .
+   13  mkdir linux_course
+   14  cd  linux_course
+   15  mkdir HW_1_intro
+   16  clear
+   17  cat /etc/os-release
+   18  nano VERSIONS.txt
+   19  cat /etc/os-release > VERSIONS.txt
+   20  nano VERSIONS.txt
+   21  ls
+   22  mv VERSIONS.txt linux_course
+   23  cd linux_course
+   24  ls
+   25  mv VERSIONS.txt HW_1_intro
+   26  cd  HW_1_intro
+   27  ls
+   28  nano GITHUB_{eva}_{mahmood}.txt
+   29  ls
+   30  clear
+   31  ls
+   32  cd ..
+   33  cd..
+   34  cd ..
+   35  ls
+   36  cd linux_course
+   37  ls
+   38  nano GITHUB_{eva}_{mahmood}.txt
+   39  ls
+   40  cd HW_1_intro
+   41  ls
+   42  rm GITHUB_{eva}_{mahmood}.txt
+   43  ls
+   44  clear
+   45  ls
+   46  cd ..
+   47  ls
+   48  mv GITHUB_{eva}_{mahmood}.txt HW_1_intro
+   49  cd HW_1_intro
+   50  ls
+   51  pico GITHUB_{eva}_{mahmood}.txt
+   52  clear
+   53  history
+   54  git --version
+   55  ls
+   56  clear
+   57  ls
+   58  clear
+   59  history 
+   60  clear
+   61  mkdir entarnet_course
+   62  git --version
+   63  git config --global user.name "Your Name"
+   64  git config --global user.email "you@example.com"
+   65  git config --global user.name "Eva Mahmood"
+   66  git config --global user.email "eva.mah.maj@gmail.com"
+   67  git config --global --list
+   68  mkdir test-git
+   69  cd test-git
+   70  git init
+   71  echo "Hello Git!" > readme.txt
+   72  git add .
+   73  git commit -m "Initial commit"
+   74  git --version
+   75  git config --global core.editor "code --wait"   # use VS Code as editor
+   76  cd ..
+   77  mkdir test-git
+   78  cd test-git
+   79  git init
+   80  echo "Hello Git!" > readme.txt
+   81  git add .
+   82  git commit -m "Initial commit"
+   83  cd ..
+   84  mkdir test-git
+   85  cd test-git
+   86  git init
+   87  echo "Hello Git!" > readme.txt
+   88  git add .
+   89  git commit -m "Initial commit"
+   90  cd ..
+   91  git config --global core.editor "code --wait"   # use VS Code as editor
+   92  mkdir test-git
+   93  cd test-git
+   94  git init
+   95  echo "Hello Git!" > readme.txt
+   96  git add .
+   97  git commit -m "Initial commit"
+   98  ls
+   99  cat readme.txt
+  100  cd ..
+  101  ls
+  102  GitHub: sign in
+  103  ls
+  104  cwd
+  105  clear
+  106  cd linux_course
+  107  code .
+  108  code .
+  109  mkdir 01_commands
+  110  cd 01_commands
+  111  mkdir A
+  112  mkdir B
+  113  mkdir c/c1
+  114  mkdir -p c/c1
+  115  ls
+  116  pwd
+  117  ls -la
+  118  mkdir -p Website/{static/{css.js},views/{html,images}}
+  119  cd c/c1
+  120  cd ..
+  121  cd ClassWork_BuildFile
+  122  mkdir ClassWork_BuildFile
+  123  cd ClassWork_BuildFile
+  124  echo "UserName:$(whoami)" > data.log
+  125  echo "Date:$(Date)" > data
+  126  .log
+  127  echo "Date:$(date)" > data
+  128  ls
+  129  echo "Date:$(date)" > data.log
+  130  cat data.log
+  131  echo "UserName:$(whoami)" > data.log
+  132  echo "Date:$(date)" > data.log
+  133  cat data.log
+  134  echo "UserName:$(whoami)" > data.log
+  135  cat data.log
+  136  echo "Date:$(date)" >> data.log
+  137  cat data.log
+  138  version
+  139  echo "OS Version:$(Version Linux)" >> data.log
+  140  cat /etc/os-release
+  141  echo "OS Version: $(cat /etc/os-release)" >> data.log
+  142  cat data.log
+  143  pico data.txt
+  144  pico data.log
+  145  echo "Directory:$(pwd)" >> data.log
+  146  cat data.log
+  147  echo "--------"
+  148  echo "--------" >> data.log
+  149  cat data.log
+  150  ls -R ~
+  151  echo "Home Directory:$HOME" >> data.log
+  152  cat data.log
+  153  histrory
+  154  history
+  155  mkdir todo_system
+  156  echo "=== TASK LOG ===
+  157  Date:{DATE NOW}
+  158  Linux Version: {Date Version Number example 24.04 בביתה שעשינו כמו}
+  159   Name And I tnedutSותז שלך שם}
+  160  [OK] System loaded successfull" > log.txt
+  161  ls
+  162  clear
+  163  history
+  164  clear
+  165  history
+  166  Date >> log.txt
+  167  date >> log.txt
+  168  cat /etc/os-release | grip VERSION
+  169  cat /etc/os-release | grep VERSION >> log.txt
+  170  cat log.txt
+  171  cat /etc/os-release
+  172  echo Student Name And id: Eva Mahmood 214985509 >> log.txt
+  173  echo --------------- >> log.txt
+  174  echo [OK] System loaded successfully >> log.txt
+  175  nano ID,Task,Status, Priority,Owner >> tasks.csv
+  176  nano tasks,csv
+  177  nano tasks.csv
+  178  echo "1, Install Ubuntu, Done, High,Alex" >> tasks.csv
+  179  echo "2,Write Homework, In Progress, High, Noa" >> tasks.csv
+  180  echo "3, Buy Coffee, Pending, Low,Dana" >> tasks.csv
+  181  echo "4, Create Backup Script, Pending, Medium, Alex" >> tasks.csv
+  182  echo "5, Update GitHub Repo, Done, Medium, Noa" >> tasks.csv
+  183  echo "6, Install Ubuntu, Done, High, Alex" >> tasks.csv
+  184  echo "3, Buy Coffee, Pending, Low, Dana" >> tasks.csv
+  185  echo "4, Study for Exam, Pending, High, Alex" >> tasks.csv
+  186  echo -e "5,Update GitHub Repo,Done,Medium,Noa/n4,Study for Exam,Pending,High,Alex" >> tasks.csv
+  187  echo -e "5,Update GitHub Repo,Done,Medium,Noa\n4,Study for Exam,Pending,High,Alex" >> tasks.csv
+  188  cat tasks.csv
+  189  echo "#tasks.csv $(wc -l < tasks.csv)"
+  190  echo ------------ >> tasks.csv
+  191  echo Finished tasks >> tasks.csv
+  192  grep Done >> tasks.csv
+  193  grep Done tasks.csv >> tasks.csv
+  194  grep Done tasks.csv >> temp.csv
+  195  cat temp.csv >> tasks.csv
+  196  rm temp.csv
+  197  cat cut -d ',' -f2 tasks.csv | tee tasks.csv
+  198  cat cut -d ',' -f2 tasks.csv 
+  199  cat -d ',' -f2 tasks.csv 
+  200  cat --help
+  201  cut --help
+  202  cut -d ',' -f2 tasks.csv 
+  203  cut -d ',' -f2 tasks.csv | tee tasks_names.txt
+  204  echo ------------ >> tasks.csv
+  205  echo "q11: cut -d','-f4 tasks.csv | sort | uniq
+  206  " >> tasks.csv
+  207  cut -d','-f4 tasks.csv | sort | uniq
+  208  cut -d ','-f4 tasks.csv | sort | uniq
+  209  cut -d',' -f4 tasks.csv | sort | uniq
+  210  echo "cut -d',' -f4 tasks.csv: takes the fourth column in the file tasks.csv that has the Priority "
+  211  echo "cut -d',' -f4 tasks.csv: takes the fourth column in the file tasks.csv that has the Priority " >> tasks.csv
+  212  echo "sort: takes the output of cut and sorts it acourding to the first litter of each word" >> tasks.csv
+  213  echo "uniq: removes duplicates" >> tasks.csv
+  214  cut-d',' -f3 tasks.csv | sort | uniq -c
+  215  cut -d',' -f3 tasks.csv | sort | uniq -c
+  216  echo ------------ >> tasks.csv
+  217  echo "q12: cut -d',' -f3 tasks.csv | sort | uniq -c
+  218  " >> tasks.csv
+  219  echo "cut -d',' -f3 tasks.csv: takes the third column in the file tasks.csv that has the Priority " >> tasks.csv
+  220  echo "sort: takes the output of cut and sorts it acourding to the first litter of each word" >> tasks.csv
+  221  echo "uniq -c: counts the number of occurrences for each word and print it" >> tasks.csv
+  222  echo ==== PENDING TASKS ==== >> pending.txt
+  223  grep Pending tasks.csv | cut -d',' -f2,4 >> pending.txt
+  224  echo ------------ >> tasks.csv
+  225  echo ------------ >> pending.txt
+  226  echo "Total pending tasks: $(grep -c Pending tasks.csv)" >> pending.txt
+  227  echo -e "Date: $(date)\nDone Tasks: $(grep -c Done tasks.csv)\nPending Taדלד"
+  228  echo -e "Date: $(date)\nDone Tasks: $(grep -c Done tasks.csv)\nPending Tasks: $(grep -c Pending tasks.csv)"
+  229  echo ===DAILY REPORT===>> report.txt
+  230  echo -e "Generated on: $(date)" >> report.txt
+  231  echo  >> report.txt
+  232  echo Completed Tasks >> report.txt
+  233  grep "Done" tasks.csv | cut -d',' -f2 >> report.txt
+  234  grep "Done" tasks.csv | cut -d',' -f2 | uniq>> report.txt
+  235  grep "Done" tasks.csv | cut -d',' -f2 | uniq >> report.txt
+  236  echo "" >> report.txt
+  237  echo "Pending tasks:" >> report.txt
+  238  grep "Pending" tasks.csv | cut -d',' -f2 | uniq >> report.txt
+  239  mkdir backup
+  240  cp *.csv *.txt backup/
+  241  find backup -type f
+  242  cd todo_system
+  243  l
+  244  ls
+  245  wget https://jsonplaceholder.typicode.com/todos
+  246  head -1 todos
+  247  head -2 todos
+  248  head -5 todos
+  249  head -7 todos
+  250  ls *.txt
+  251  touch task{1..5}.txt
+  252  ls
+  253  cp task* backup/
+  254  ls
+  255  grep -l "task"
+  256  grep -l "task" .
+  257  cat grep -l "task"
+  258  grep -rl "task" .
+  259  grep -rl "task" . >> log.txt
+  260  history >> history.log
+  261  mv todo_system LINUX_HW_02_evaMahmood_214985509
+  262  cd ..
+  263  mv todo_system LINUX_HW_02_evaMahmood_214985509
+  264  sudo apt list
+  265  ls
+  266  apt search Figlet
+  267  sudo apt show
+  268  sudo apt show Figlet
+  269  cd ..
+  270  sudo apt show Figlet
+  271  cd linux_course
+  272  apt search Figlet
+  273  sudo apt show Figlet
+  274  sudo apt show figlet
+  275  apt update && apt upgrade -y
+  276  sodu apt update && sudo apt upgrade -y
+  277  sudo apt update && sudo apt upgrade -y
+  278  sudo apt install figlet
+  279  which figlet
+  280  figlet TEL-HAI
+  281  sudo apt install nnn
+  282  nnn TEL-HAI
+  283  sudo apt install cmatrix
+  284  cmatrix TEL-HAI
+  285  cmatrix
+  286  sudo apt install fortune
+  287  fortune 
+  288  sudo apt install cosay
+  289  furtune | cowsay 
+  290  fortune | cowsay 
+  291  node -v
+  292  sudo apt install nodejs
+  293  cowsay I LOVE JAD 
+  294  sudo مش منيح
+  295  cowsay مش منيح
+  296  cowsay حينم شم
+  297  wget localhost:3000
+  298  wge  http://localhost:3000
+  299  wget  http://localhost:3000
+  300  wge  http://localhost:3000//index.html
+  301  wget  http://localhost:3000//index.html
+  302  wget  http://localhost:3000/index.html
+  303  echo "-----about Installing htop $(date")" >> installing.txt
+  304  echo "-----about Installing htop $(date)" >> installing.txt
+  305  cd classWork_install2
+  306  echo "-----about Installing htop $(date)" >> installing.txt
+  307  sudo apt update
+  308  echo "-----updating Repo..." >> installing.txt
+  309  echo "-----htop installed version $()" >> installing.txt
+  310  atp --installed
+  311  apt --installed
+  312  sudo apt --installed
+  313  apt list --installed
+  314  sudo apt list --installed 
+  315  sudo apt list --installed >> installing.txt
+  316  apt info htop >> installing.txt
+  317  sudo apt install htop
+  318  apt list --installed | grep htop
+  319  sudo apt list --installed | grep htop
+  320  apt list --installed | grep htop
+  321  htop --version
+  322  echo "-----htop installed version: $(htop --version)"
+  323  echo "-----htop installed version: $(htop --version)" >> installing.txt
+  324  echo "-----htop installed directory: $(which htop)" >> installing.txt
+  325  echo "-----Running  htop $(date)" >> installing.txt
+  326  htop
+  327  sudo apt install aha -y
+  328  echo q | htop | aha --black --line-fix > htop.html
+  329  history
+  330  node -v
+  331  code .
+  332  mkdir 02_Install
+  333  cd 02_Install
+  334  mkdir NodeServer
+  335  cd  NodeServer
+  336  node v
+  337  node -v
+  338  echo VERSION NODE`npm -v`>>loginstall.txt
+  339  echo "VERSION NODE `npm -v`" >>loginstall.txt
+  340  sudo apt install npm
+  341  touch index.js
+  342  node index.js
+  343  npm init -y
+  344  node index.js
+  345  curl http://localhost:3000/index.html
+  346  curl http://localhost:3000/index.html
+  347  node index.js
+  348  sudo lsof -i :3000
+  349  kill -9 30230
+  350  node index.js
+  351  ls
+  352  cd linux_course
+  353  code .
+  354  mkdir Bash
+  355  mv Bash 03_Bash
+  356  ls
+  357  cd 03_Bash
+  358  touch script.sh
+  359  ls
+  360  mv script.sh script1.sh
+  361  chmod +x
+  362  ls -a
+  363  ls -l
+  364  chmod +x script1.sh
+  365  ls -l
+  366  ./script1.sh
+  367  cd Der_evamah
+  368  touch file_1.txt
+  369  ./script1.sh
+  370  cd ..
+  371  ./script1.sh
+  372  touch script2.sh
+  373  chmod +x script2.sh
+  374  ./script2.sh
+  375  ./script2.sh classEX
+  376  ./script1.sh classEX
+  377  clear
+  378  chmod +x script1.sh
+  379  cd 03_Bash
+  380  chmod +x script1.sh
+  381  chmod +x script2.sh
+  382  ./script1.sh
+  383  ./script2.sh classEx
+  384  mkdir -p Linux_HW_APT/{CLIENT,SERVER}
+  385  cd ..
+  386  cd linux_course
+  387  ls
+  388  cd tmp
+  389  ls
+  390  mkdir -p Linux_HW_APT/{CLIENT/CLIENT_{1..3},SERVER/SERVER_{1..2}}
+  391  cd Linux_HW_APT/SERVER
+  392  node -v
+  393  sudo apt install nodejs npm
+  394  echo -e "Machine Name: $(hostname)" >> server.txt
+  395  echo -e "OS Version: $(grep VERSION /etc/os-release)" >> server.txt
+  396  echo -e "NodeJS Version: $(node -v)" >> server.txt
+  397  echo -e "User: $(whoami)\nTime: $(date)" >> server.txt
+  398  cd ..
+  399  cd CLIENT
+  400  sudo apt update && sudo apt install jq -y
+  401  sudo apt install curl -y
+  402  curl --version
+  403  jq --version
+  404  echo -e "CURL Version: $(curl --version | head -n 1)\nJQ Version: $(jq --version)" > install.txt
+  405  cd ../SERVER/SERVER_1
+  406  nano Node.js
+  407  touch Node.js
+  408  node Node.js
+  409  curl http://localhost:3000
+  410  cd SERVER/SERVER_1
+  411  cd Linux_HW_APT/SERVER/SERVER_1
+  412  Node.js
+  413  node Node.js
+  414  cd Linux_HW_APT/CLIENT/CLIENT_1
+  415  curl http://localhost:3000
+  416  g
+  417  curl http://localhost:3000 > output.log
+  418  curl http://localhost:3000 >> output.log
+  419  ls
+  420  curl http://localhost:3000 >> output.log
+  421  curl -s http://localhost:3000 | jq
+  422  curl -s http://localhost:3000 | jq > output.txt
+  423  curl -s http://localhost:3000 | jq > output.log
+  424  curl -s http://localhost:3000 | jq >> output.log
+  425  history
+  426  history
+  427  curl -s http://localhost:3000 | jq > output.txt 
+  428  curl -s http://localhost:3000 | jq > output.log
+  429  curl -s http://localhost:3000 | jq >> output.log
+  430  cat output.log
+  431  curl -s http://localhost:3000 > output_$(date +"%Y-%m-%d_%H-%M-%S").log
+  432  curl -s http://localhost:3000 | jq '.random' >> random.log
+  433  ls *.log 
+  434  cat ../install.txt
+  435  cat ../install.txt > output.txt
+  436  cd Linux_HW_APT/CLIENT/CLIENT_3
+  437  echo "https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/" > url.txt
+  438  curl $(https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/)
+  439  curl https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/
+  440  curl -s https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/ | jq -r '.[].url'
+  441  curl -s https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/ | jq -r '.[].url' > url.txt
+  442  curl https://curly-adventure-6vj4x4jpr9c567g-8080.app.github.dev/ | jq -r '.[].thumbnailUrl' > thumbnails.txt
+  443  wget -i thumbnails.txt
+  444  ping -c 3 google.com
+  445  sudo nano /etc/resolv.conf
+  446  sudo nano /etc/wsl.conf
+  447  wget -i thumbnails.txt
+  448  cat /etc/resolv.conf
+  449  cat /etc/wsl.conf
+  450  history > history.txt
+  451  wget -i https://via.placeholder.com/150/92c952
+  452  wsl --shutdown
+  453  wget -i https://via.placeholder.com/150/92c952
+  454  cat /etc/resolv.conf
+  455  ping -c 3 8.8.8.8
+  456  ping -c 3 google.com
+  457  ping via.placeholder.com
+  458  sed -i 's|https://via.placeholder.com/150/\(.*\)|https://placehold.co/150x150/\1|g' thumbnails.txt
+  459  wget -i thumbnails.txt
+  460  sed -i 's|https://via.placeholder.com/150/\(.*\)|https://placehold.co/150x150/\1/ffffff|g' thumbnails.txt
+  461  wget -i thumbnails.txt
+  462  sed -i 's|$|.png|' thumbnails.txt
+  463  wget -i thumbnails.txt
+  464  cut -d'/' -f5 thumbnails.txt > colors.txt
+  465  sed 's|^|https://placehold.co/150x150/|' colors.txt > new_urls.txt
+  466  n=1
+  467  while read url; do     wget -O thumb_$n.png "$url";     n=$((n+1)); done < new_urls.txt
+  468  wsl --shutdown
+  469  sudo apt install wsl
+  470  cd Linux_HW_APT/CLIENT/CLIENT_2
+  471  curl -s http://localhost:4000 > "output_$(date +"%Y-%m-%d_%H-%M-%S").log"
+  472  ls *.log >> outputs.txt
+  473  cat *.log >> outputs.txt
+  474  cd Linux_HW_APT/SERVER/SERVER_2
+  475  hostname && uptime && lsb_release -d
+  476  touch SERVER_2.js
+  477  node SERVER_2.js
+  478  node Node.js
+  479  cd Linux_HW_APT
+  480  find . -type f > allfiles.txt
+  481  history | tail -55 >> allfiles.txt
+  482  history | tail -100 >> allfiles.txt
+  483  history | tail -120 >> allfiles.txt
+  484  history
+  485  wget -i thumbnails.txt
+  486  cd Linux_HW_APT/CLIENT/CLIENT3
+  487  wget -i thumbnails.txt
+  488  history
+  489  code .
+  490  ./script
+  491  ./script_4.sh
+  492  chmod + script_4.sh
+  493  ./script_4.sh
+  494  chmod + script_4.sh 
+  495  chmod +
+  496  chmod + tirgul.sh
+  497  ./tirgul.sh
+  498  chmod + tirgul.sh
+  499  ./tirgul.sh
+  500  ./script_4.sh ../03/TEST_OUTPUT/
+  501  chmod +x script_4.sh
+  502  ./script_4.sh ../03_Bas/TEST_OUTPUT
+  503  ./script_4.sh ../03_Bash/TEST_OUTPUT
+  504  chmod +x script_1.sh
+  505  ./script_1.sh
+  506  sudo apt remove jq
+  507  sudo ./script_2.sh jq
+  508  chmod +x script_2.sh
+  509  sudo ./script_2.sh jq
+  510  chmod +x script_2.sh
+  511  sudo ./script_2.sh jq
+  512  sudo apt update
+  513  sudo apt install -y jq
+  514  jq --version
+  515  chmod +x jq
+  516  chmod +x script_2.sh
+  517  sudo ./script_2.sh jq
+  518  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+  519  sudo apt update
+  520  apt list --upgradable
+  521  sudo apt install jq
+  522  \
+  523  sudo ./script_2.sh jq
+  524  chmod +x script_3.sh
+  525  ./script_3.sh -a 15 -n Gad 
+  526  ./script_3.sh -age 15 -n Gad 
+  527  ./script_3.sh --age 15 -n Gad 
+  528  chmod +x script_4.sh
+  529  ./tirgul.sh TEST_OUTPUT
+  530  chmod + tirgul.sh
+  531  ./tirgul.sh TEST_OUTPUT
+  532  chmod + tirgul.sh
+  533  ./tirgul.sh TEST_OUTPUT
+  534  chmod +x tirgul.sh
+  535  ./tirgul.sh TEST_OUTPUT
+  536  ./script_4.sh ../03_Bash/TEST_OUTPUT
+  537  chmod +x script_4.sh
+  538  cat /etc/pass/wt
+  539  cat /etc/pass/password
+  540  cat /etc/password
+  541  cat /etc/passwd
+  542  chmod +x script_5.sh
+  543  ./script_5.sh Data/ 1.01 1.02
+  544  chmod +x script_6.sh
+  545  ./script_6.sh Data/a.txt v1 
+  546  ./script_6.sh Data/b.log v1 
+  547  git --version
+  548  sudo apt install git -y
+  549  git --version
+  550  git config --global user.name "evamah"
+  551  git config --global user.email "eva.mah.maj@gmail.com"
+  552  git --version
+  553  history
+  554  ./script_6.sh Data/c_renamed_v1.txt   
+  555  python3 --version
+  556  python3 -m pip install -r requirements.txt
+  557  sudo apt update
+  558  sudo apt install python3-pip
+  559  sudo apt upgrade python3
+  560  sudo apt install python3-pip
+  561  sudo apt update
+  562  sudo apt install python3-pip
+  563  sudo apt update & sudo apt upgrade python3
+  564  python3 -v
+  565  python3 --version
+  566  pip --version
+  567  pip3 --version
+  568  sudo apt update && sudo apt upgrade -y
+  569  sudo apt install -y     build-essential     curl     git     libssl-dev     zlib1g-dev     libbz2-dev     libreadline-dev     libsqlite3-dev     wget     llvm     libncurses5-dev     libncursesw5-dev     xz-utils     tk-dev     libffi-dev     liblzma-dev     python3-openssl
+  570  sudo apt install -y     build-essential     curl     git     libssl-dev     zlib1g-dev     libbz2-dev     libreadline-dev     libsqlite3-dev     wget     llvm     libncurses5-dev     libncursesw5-dev     xz-utils     tk-dev     libffi-dev     liblzma-dev     python3-openssl
+  571  sudo apt update
+  572  sudo apt install -y   build-essential   curl   git   libssl-dev   zlib1g-dev   libbz2-dev   libreadline-dev   libsqlite3-dev   libffi-dev   libncursesw5-dev   xz-utils   tk-dev   uuid-dev
+  573  curl https://pyenv.run | bash
+  574  pyenv --version
+  575  sudo apt install pyenv
+  576  pyenv --version
+  577  ls ~/.pyenv
+  578  sudo apt update
+  579  sudo apt install -y build-essential curl git zlib1g-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev
+  580  sudo apt --fix-broken install
+  581  sudo apt update
+  582  sudo apt full-upgrade -y
+  583  sudo apt autoremove --purge -y
+  584  sudo apt autoclean
+  585  sudo apt install -y build-essential curl git
+  586  sudo apt install -y zlib1g-dev
+  587  sudo apt install -y libssl-dev
+  588  sudo apt install -y libbz2-dev
+  589  sudo apt install -y libreadline-dev
+  590  sudo apt install -y libsqlite3-dev
+  591  ls ~/.pyenv
+  592  sudo rm /etc/resolv.conf
+  593  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+  594  sudo chattr +i /etc/resolv.conf
+  595  ping archive.ubuntu.com -c 3
+  596  sudo apt update --fix-missing
+  597  sudo apt --fix-broken install
+  598  sudo apt full-upgrade -y
+  599  cat /etc/apt/sources.list
+  600  cat /etc/apt/sources.list.d/ubuntu.sources
+  601  sudo rm /etc/resolv.conf
+  602  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+  603  sudo chattr +i /etc/resolv.conf
+  604  ping archive.ubuntu.com -c 3
+  605  sudo apt install -y build-essential curl git zlib1g-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev
+  606  ping archive.ubuntu.com -c 3
+  607  sudo apt update --fix-missing
+  608  sudo apt full-upgrade -y
+  609  sudo apt --fix-broken install
+  610  sudo apt install -y build-essential curl git zlib1g-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev
+  611  curl https://pyenv.run | bash
+  612  nano ~/.bashrc
+  613  exec "$SHELL"
+  614  pyenv local 3.11.9
+  615  ls -la
+  616  python - m venv app1_3_11_9
+  617  python -m venv app1_3_11_9
+  618  source app1_3_11_9/bin/activate
+  619  python --version
+  620  touch app1.py
+  621  chmod +x app1.py
+  622  python3 app1.py
+  623  pip install camelcase
+  624  python3 app1.py
+  625  python3 app1.py  > output_app1
+  626  pip install matplotlib
+  627  python3 app2.py
+  628  touch pyrunner.sh
+  629  chmod +x pyrunner.sh
+  630  ./pyrunner.sh app1.py
+  631  pyenv --version
+  632  pyenv install --list
+  633  pyenv install 3.11.9
+  634  pyenv install 3.12.3
+  635  source ~./bashrc
+  636  source  ~/.bashrc
+  637  pyven --verrsion
+  638  pyenv --version
+  639  pyenv install --list
+  640  pyenv install 3.11.9
+  641  \
+  642  python --version
+  643  which python
+  644  cat ~/.bashrc | grep pyenv
+  645  which python
+  646  python --version
+  647  pyenv global 3.11.9
+  648  hash -r
+  649  pyenv install 3.11.9 --verbose
+  650  pyenv versions
+  651  * system (set by /home/evamah/.pyenv/version)
+  652  pyenv global 3.11.9
+  653  pyenv rehash
+  654  hash -r
+  655  which python
+  656  python --version
+  657  pyenv versions
+  658  imagemagick --version
+  659  convert --version
+  660  sudo apt update
+  661  apt list --upgradable
+  662  sudo apt upgrade
+  663  sudo apt install imagemagick
+  664  sudo apt update
+  665  magick --version
+  666  imagemagick --version
+  667  sudo apt install imagemagick
+  668  imagemagick --version
+  669  convert --version
+  670  ImageMagick --version
+  671  echo  date +"%Y_%m_%d_%H_%M"
+  672  echo $( date +"%Y_%m_%d_%H_%M")
+  673  echo $(date +"%Y_%m_%d_%H_%M")
+  674  pyenv shell 3.11.9
+  675  man cp
+  676  history > history.txt

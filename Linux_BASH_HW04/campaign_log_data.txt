@@ -1,0 +1,48 @@
+2025_12_13_18_06, INFO: Started working on campaign_runner.sh
+2025_12_13_18_06, INFO: The CSV file is: data.csv
+2025_12_13_18_06, INFO: Output directory outputs_data already exists, deleted it
+2025_12_13_18_06, INFO: The output directory is: outputs_data
+2025_12_13_18_06, INFO: The output log file is: campaign_log_data.txt
+2025_12_13_18_06, INFO: Making the HTML file: data_2025_12_13_18_06.html
+2025_12_13_18_06, INFO: Skipped CSV header row
+
+2025_12_13_18_06, INFO: Processing row 2: URL=sunset.jpg QUALITY=5 FRAMES=40 NAME=img_1.gif
+2025_12_13_18_06, INFO: Running reveal_effect.sh on row 2
+2025_12_13_18_06, INFO: saved final image in: outputs_data/img_1.gif
+
+2025_12_13_18_06, INFO: Processing row 3: URL=nature.jpg QUALITY=50 FRAMES=35 NAME=img_2.gif
+2025_12_13_18_06, INFO: Running reveal_effect.sh on row 3
+2025_12_13_18_06, INFO: saved final image in: outputs_data/img_2.gif
+
+2025_12_13_18_06, ERROR: Row 4 has missing values: URL='4' QUALITY='' FRAMES='' NAME=''
+
+2025_12_13_18_06, INFO: Processing row 5: URL=Pinguin.jpg QUALITY=70 FRAMES=45 NAME=img_4.gif
+2025_12_13_18_06, INFO: Running reveal_effect.sh on row 5
+2025_12_13_18_06, INFO: saved final image in: outputs_data/img_4.gif
+
+2025_12_13_18_06, INFO: Processing row 6: URL=errorpath/error QUALITY=5 FRAMES=5 NAME=img_error.gif
+2025_12_13_18_06, INFO: Running reveal_effect.sh on row 6
+2025_12_13_18_06, ERROR: Row 6 is not a URL or a file path: errorpath/error
+2025_12_13_18_06, WARNING: reveal_effect.sh failed on row 6
+
+2025_12_13_18_06, INFO: Processing row 7: URL=https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2F0%2Fb%2F5%2F3%2Fa%2F6%2F0b53a65cd1849ae5c32389840f93812ec14b9cd3.jpg&w=750&q=75 QUALITY=70 FRAMES=35 NAME=img_5.gif
+2025_12_13_18_06, INFO: Running reveal_effect.sh on row 7
+2025_12_13_18_06, INFO: saved final image in: outputs_data/img_5.gif
+
+2025_12_13_18_06, INFO: Processing row 8: URL=myphoto.jpg QUALITY=5 FRAMES=35 NAME=img_6.gif
+2025_12_13_18_06, INFO: Running reveal_effect.sh on row 8
+2025_12_13_18_07, INFO: saved final image in: outputs_data/img_6.gif
+
+2025_12_13_18_07, ERROR: Row 9 has missing values: URL='sunset.jpg' QUALITY='' FRAMES='' NAME='5'
+
+2025_12_13_18_07, INFO: Processing row 10: URL=https://4kwallpapers.com/images/walls/thumbs_3t/1405.png QUALITY=70 FRAMES=34 NAME=img_7.gif
+2025_12_13_18_07, INFO: Running reveal_effect.sh on row 10
+2025_12_13_18_07, INFO: saved final image in: outputs_data/img_7.gif
+
+2025_12_13_18_07, INFO: Processing row 11: URL=link.com/missing.jpg QUALITY=10 FRAMES=10 NAME=error_test.gif
+2025_12_13_18_07, INFO: Running reveal_effect.sh on row 11
+2025_12_13_18_07, ERROR: Row 11 is not a URL or a file path: link.com/missing.jpg
+2025_12_13_18_07, WARNING: reveal_effect.sh failed on row 11
+
+2025_12_13_18_07, INFO: HTML file created: data_2025_12_13_18_06.html
+2025_12_13_18_07, INFO: Finished working successfully

@@ -1,0 +1,26 @@
+ID,Task,Status,Priority,Owner
+1,Install Ubuntu,Done,High,Alex
+2,Write Homework,In Progress,High,Noa
+3,Buy Coffee,Pending,Low,Dana
+4,Create Backup Script,Pending,Medium,Alex
+5,Update GitHub Repo,Done,Medium,Noa
+6,Install Ubuntu,Done,High,Alex
+3,Buy Coffee,Pending,Low,Dana
+5,Update GitHub Repo,Done,Medium,Noa
+4,Study for Exam,Pending,High,Alex
+------------
+Finished tasks:
+1,Install Ubuntu,Done,High,Alex
+5,Update GitHub Repo,Done,Medium,Noa
+6,Install Ubuntu,Done,High,Alex
+5,Update GitHub Repo,Done,Medium,Noa
+------------
+q11: cut -d','-f4 tasks.csv | sort | uniq
+cut -d',' -f4 tasks.csv: takes the fourth column in the file tasks.csv that has the Priority 
+sort: takes the output of cut and sorts it according to the first litter of each word
+uniq: removes duplicates
+------------
+q12: cut -d',' -f3 tasks.csv | sort | uniq -c
+cut -d',' -f3 tasks.csv: takes the third column in the file tasks.csv that has the Priority 
+sort: takes the output of cut and sorts it according to the first litter of each word
+uniq -c: counts the number of occurrences for each word and print it

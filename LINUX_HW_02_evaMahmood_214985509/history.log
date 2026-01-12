@@ -1,0 +1,261 @@
+    1  ls
+    2  clear
+    3  nano ex1
+    4  ls
+    5  clear
+    6  mv ex1
+    7  pico ex1
+    8  ls
+    9  clear
+   10  ls
+   11  clear
+   12  code .
+   13  mkdir linux_course
+   14  cd  linux_course
+   15  mkdir HW_1_intro
+   16  clear
+   17  cat /etc/os-release
+   18  nano VERSIONS.txt
+   19  cat /etc/os-release > VERSIONS.txt
+   20  nano VERSIONS.txt
+   21  ls
+   22  mv VERSIONS.txt linux_course
+   23  cd linux_course
+   24  ls
+   25  mv VERSIONS.txt HW_1_intro
+   26  cd  HW_1_intro
+   27  ls
+   28  nano GITHUB_{eva}_{mahmood}.txt
+   29  ls
+   30  clear
+   31  ls
+   32  cd ..
+   33  cd..
+   34  cd ..
+   35  ls
+   36  cd linux_course
+   37  ls
+   38  nano GITHUB_{eva}_{mahmood}.txt
+   39  ls
+   40  cd HW_1_intro
+   41  ls
+   42  rm GITHUB_{eva}_{mahmood}.txt
+   43  ls
+   44  clear
+   45  ls
+   46  cd ..
+   47  ls
+   48  mv GITHUB_{eva}_{mahmood}.txt HW_1_intro
+   49  cd HW_1_intro
+   50  ls
+   51  pico GITHUB_{eva}_{mahmood}.txt
+   52  clear
+   53  history
+   54  git --version
+   55  ls
+   56  clear
+   57  ls
+   58  clear
+   59  history 
+   60  clear
+   61  mkdir entarnet_course
+   62  git --version
+   63  git config --global user.name "Your Name"
+   64  git config --global user.email "you@example.com"
+   65  git config --global user.name "Eva Mahmood"
+   66  git config --global user.email "eva.mah.maj@gmail.com"
+   67  git config --global --list
+   68  mkdir test-git
+   69  cd test-git
+   70  git init
+   71  echo "Hello Git!" > readme.txt
+   72  git add .
+   73  git commit -m "Initial commit"
+   74  git --version
+   75  git config --global core.editor "code --wait"   # use VS Code as editor
+   76  cd ..
+   77  mkdir test-git
+   78  cd test-git
+   79  git init
+   80  echo "Hello Git!" > readme.txt
+   81  git add .
+   82  git commit -m "Initial commit"
+   83  cd ..
+   84  mkdir test-git
+   85  cd test-git
+   86  git init
+   87  echo "Hello Git!" > readme.txt
+   88  git add .
+   89  git commit -m "Initial commit"
+   90  cd ..
+   91  git config --global core.editor "code --wait"   # use VS Code as editor
+   92  mkdir test-git
+   93  cd test-git
+   94  git init
+   95  echo "Hello Git!" > readme.txt
+   96  git add .
+   97  git commit -m "Initial commit"
+   98  ls
+   99  cat readme.txt
+  100  cd ..
+  101  ls
+  102  GitHub: sign in
+  103  ls
+  104  cwd
+  105  clear
+  106  cd linux_course
+  107  code .
+  108  code .
+  109  mkdir 01_commands
+  110  cd 01_commands
+  111  mkdir A
+  112  mkdir B
+  113  mkdir c/c1
+  114  mkdir -p c/c1
+  115  ls
+  116  pwd
+  117  ls -la
+  118  mkdir -p Website/{static/{css.js},views/{html,images}}
+  119  cd c/c1
+  120  cd ..
+  121  cd ClassWork_BuildFile
+  122  mkdir ClassWork_BuildFile
+  123  cd ClassWork_BuildFile
+  124  echo "UserName:$(whoami)" > data.log
+  125  echo "Date:$(Date)" > data
+  126  .log
+  127  echo "Date:$(date)" > data
+  128  ls
+  129  echo "Date:$(date)" > data.log
+  130  cat data.log
+  131  echo "UserName:$(whoami)" > data.log
+  132  echo "Date:$(date)" > data.log
+  133  cat data.log
+  134  echo "UserName:$(whoami)" > data.log
+  135  cat data.log
+  136  echo "Date:$(date)" >> data.log
+  137  cat data.log
+  138  version
+  139  echo "OS Version:$(Version Linux)" >> data.log
+  140  cat /etc/os-release
+  141  echo "OS Version: $(cat /etc/os-release)" >> data.log
+  142  cat data.log
+  143  pico data.txt
+  144  pico data.log
+  145  echo "Directory:$(pwd)" >> data.log
+  146  cat data.log
+  147  echo "--------"
+  148  echo "--------" >> data.log
+  149  cat data.log
+  150  ls -R ~
+  151  echo "Home Directory:$HOME" >> data.log
+  152  cat data.log
+  153  histrory
+  154  history
+  155  mkdir todo_system
+  156  echo "=== TASK LOG ===
+  157  Date:{DATE NOW}
+  158  Linux Version: {Date Version Number example 24.04 בביתה שעשינו כמו}
+  159   Name And I tnedutSותז שלך שם}
+  160  [OK] System loaded successfull" > log.txt
+  161  ls
+  162  clear
+  163  history
+  164  clear
+  165  history
+  166  Date >> log.txt
+  167  date >> log.txt
+  168  cat /etc/os-release | grip VERSION
+  169  cat /etc/os-release | grep VERSION >> log.txt
+  170  cat log.txt
+  171  cat /etc/os-release
+  172  echo Student Name And id: Eva Mahmood 214985509 >> log.txt
+  173  echo --------------- >> log.txt
+  174  echo [OK] System loaded successfully >> log.txt
+  175  nano ID,Task,Status, Priority,Owner >> tasks.csv
+  176  nano tasks,csv
+  177  nano tasks.csv
+  178  echo "1, Install Ubuntu, Done, High,Alex" >> tasks.csv
+  179  echo "2,Write Homework, In Progress, High, Noa" >> tasks.csv
+  180  echo "3, Buy Coffee, Pending, Low,Dana" >> tasks.csv
+  181  echo "4, Create Backup Script, Pending, Medium, Alex" >> tasks.csv
+  182  echo "5, Update GitHub Repo, Done, Medium, Noa" >> tasks.csv
+  183  echo "6, Install Ubuntu, Done, High, Alex" >> tasks.csv
+  184  echo "3, Buy Coffee, Pending, Low, Dana" >> tasks.csv
+  185* 
+  186  echo "4, Study for Exam, Pending, High, Alex" >> tasks.csv
+  187  echo -e "5,Update GitHub Repo,Done,Medium,Noa/n4,Study for Exam,Pending,High,Alex" >> tasks.csv
+  188  echo -e "5,Update GitHub Repo,Done,Medium,Noa\n4,Study for Exam,Pending,High,Alex" >> tasks.csv
+  189  cat tasks.csv
+  190  echo "#tasks.csv $(wc -l < tasks.csv)"
+  191  echo ------------ >> tasks.csv
+  192  echo Finished tasks >> tasks.csv
+  193  grep Done >> tasks.csv
+  194  grep Done tasks.csv >> tasks.csv
+  195  grep Done tasks.csv >> temp.csv
+  196  cat temp.csv >> tasks.csv
+  197  rm temp.csv
+  198  cat cut -d ',' -f2 tasks.csv | tee tasks.csv
+  199  cat cut -d ',' -f2 tasks.csv 
+  200  cat -d ',' -f2 tasks.csv 
+  201  cat --help
+  202  cut --help
+  203  cut -d ',' -f2 tasks.csv 
+  204  cut -d ',' -f2 tasks.csv | tee tasks_names.txt
+  205  echo ------------ >> tasks.csv
+  206  echo "q11: cut -d','-f4 tasks.csv | sort | uniq
+" >> tasks.csv
+  207  cut -d','-f4 tasks.csv | sort | uniq
+  208  cut -d ','-f4 tasks.csv | sort | uniq
+  209  cut -d',' -f4 tasks.csv | sort | uniq
+  210  echo "cut -d',' -f4 tasks.csv: takes the fourth column in the file tasks.csv that has the Priority "
+  211  echo "cut -d',' -f4 tasks.csv: takes the fourth column in the file tasks.csv that has the Priority " >> tasks.csv
+  212  echo "sort: takes the output of cut and sorts it acourding to the first litter of each word" >> tasks.csv
+  213  echo "uniq: removes duplicates" >> tasks.csv
+  214  cut-d',' -f3 tasks.csv | sort | uniq -c
+  215  cut -d',' -f3 tasks.csv | sort | uniq -c
+  216  echo ------------ >> tasks.csv
+  217  echo "q12: cut -d',' -f3 tasks.csv | sort | uniq -c
+" >> tasks.csv
+  218  echo "cut -d',' -f3 tasks.csv: takes the third column in the file tasks.csv that has the Priority " >> tasks.csv
+  219  echo "sort: takes the output of cut and sorts it acourding to the first litter of each word" >> tasks.csv
+  220  echo "uniq -c: counts the number of occurrences for each word and print it" >> tasks.csv
+  221  echo ==== PENDING TASKS ==== >> pending.txt
+  222  grep Pending tasks.csv | cut -d',' -f2,4 >> pending.txt
+  223  echo ------------ >> tasks.csv
+  224  echo ------------ >> pending.txt
+  225  echo "Total pending tasks: $(grep -c Pending tasks.csv)" >> pending.txt
+  226* echo -e "Date: $(date)\nDone Tasks: $(grep -c Done tasks.csv)\nPending Taדלד"
+  227  echo -e "Date: $(date)\nDone Tasks: $(grep -c Done tasks.csv)\nPending Tasks: $(grep -c Pending tasks.csv)"
+  228  echo ===DAILY REPORT===>> report.txt
+  229  echo -e "Generated on: $(date)" >> report.txt
+  230  echo  >> report.txt
+  231  echo Completed Tasks >> report.txt
+  232  grep "Done" tasks.csv | cut -d',' -f2 >> report.txt
+  233  grep "Done" tasks.csv | cut -d',' -f2 | uniq>> report.txt
+  234  grep "Done" tasks.csv | cut -d',' -f2 | uniq >> report.txt
+  235  echo "" >> report.txt
+  236  echo "Pending tasks:" >> report.txt
+  237  grep "Pending" tasks.csv | cut -d',' -f2 | uniq >> report.txt
+  238  mkdir backup
+  239  cp *.csv *.txt backup/
+  240  find backup -type f
+  241  cd todo_system
+  242  l
+  243  ls
+  244  wget https://jsonplaceholder.typicode.com/todos
+  245  head -1 todos
+  246  head -2 todos
+  247  head -5 todos
+  248  head -7 todos
+  249  ls *.txt
+  250  touch task{1..5}.txt
+  251  ls
+  252  cp task* backup/
+  253  ls
+  254  grep -l "task"
+  255  grep -l "task" .
+  256  cat grep -l "task"
+  257  grep -rl "task" .
+  258  grep -rl "task" . >> log.txt
+  259  history >> history.log

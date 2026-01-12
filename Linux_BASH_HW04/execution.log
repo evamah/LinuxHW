@@ -1,0 +1,306 @@
+2025_12_13_18_06, INFO: Started working
+2025_12_13_18_06, INFO: Making the directory temp_dir
+2025_12_13_18_06, INFO: Copied file from sunset.jpg to temp_dir/photo_file 
+2025_12_13_18_06, INFO: Photo is in: temp_dir/photo_file
+2025_12_13_18_06, INFO: Image width: 720 px
+2025_12_13_18_06, INFO: Image height: 462 px
+2025_12_13_18_06, INFO: Creating frame 9 with quality 5
+2025_12_13_18_06, INFO: Creating frame 10 with quality 7
+2025_12_13_18_06, INFO: Creating frame 11 with quality 9
+2025_12_13_18_06, INFO: Creating frame 12 with quality 11
+2025_12_13_18_06, INFO: Creating frame 13 with quality 13
+2025_12_13_18_06, INFO: Creating frame 14 with quality 15
+2025_12_13_18_06, INFO: Creating frame 15 with quality 17
+2025_12_13_18_06, INFO: Creating frame 16 with quality 19
+2025_12_13_18_06, INFO: Creating frame 17 with quality 21
+2025_12_13_18_06, INFO: Creating frame 18 with quality 23
+2025_12_13_18_06, INFO: Creating frame 19 with quality 25
+2025_12_13_18_06, INFO: Creating frame 20 with quality 27
+2025_12_13_18_06, INFO: Creating frame 21 with quality 29
+2025_12_13_18_06, INFO: Creating frame 22 with quality 31
+2025_12_13_18_06, INFO: Creating frame 23 with quality 33
+2025_12_13_18_06, INFO: Creating frame 24 with quality 35
+2025_12_13_18_06, INFO: Creating frame 25 with quality 37
+2025_12_13_18_06, INFO: Creating frame 26 with quality 39
+2025_12_13_18_06, INFO: Creating frame 27 with quality 41
+2025_12_13_18_06, INFO: Creating frame 28 with quality 43
+2025_12_13_18_06, INFO: Creating frame 29 with quality 45
+2025_12_13_18_06, INFO: Creating frame 30 with quality 47
+2025_12_13_18_06, INFO: Creating frame 31 with quality 49
+2025_12_13_18_06, INFO: Creating frame 32 with quality 51
+2025_12_13_18_06, INFO: Creating frame 33 with quality 53
+2025_12_13_18_06, INFO: Creating frame 34 with quality 55
+2025_12_13_18_06, INFO: Creating frame 35 with quality 57
+2025_12_13_18_06, INFO: Creating frame 36 with quality 59
+2025_12_13_18_06, INFO: Creating frame 37 with quality 61
+2025_12_13_18_06, INFO: Creating frame 38 with quality 63
+2025_12_13_18_06, INFO: Creating frame 39 with quality 65
+2025_12_13_18_06, INFO: Creating frame 40 with quality 67
+2025_12_13_18_06, INFO: Creating frame 41 with quality 69
+2025_12_13_18_06, INFO: Creating frame 42 with quality 71
+2025_12_13_18_06, INFO: Creating frame 43 with quality 73
+2025_12_13_18_06, INFO: Creating frame 44 with quality 75
+2025_12_13_18_06, INFO: Creating frame 45 with quality 77
+2025_12_13_18_06, INFO: Creating frame 46 with quality 79
+2025_12_13_18_06, INFO: Creating frame 47 with quality 81
+2025_12_13_18_06, INFO: Creating frame 48 with quality 83
+2025_12_13_18_06, INFO: Finished creating 40 frames in temp_dir
+2025_12_13_18_06, INFO: Creating GIF file: outputs_data/img_1.gif
+2025_12_13_18_06, INFO: GIF created in: outputs_data/img_1.gif successfully
+2025_12_13_18_06, INFO: Cleaning up temporary directory
+2025_12_13_18_06, INFO: Finished working successfully
+
+2025_12_13_18_06, INFO: Started working
+2025_12_13_18_06, INFO: Making the directory temp_dir
+2025_12_13_18_06, INFO: Copied file from nature.jpg to temp_dir/photo_file 
+2025_12_13_18_06, INFO: Photo is in: temp_dir/photo_file
+2025_12_13_18_06, INFO: Image width: 736 px
+2025_12_13_18_06, INFO: Image height: 977 px
+2025_12_13_18_06, INFO: Creating frame 9 with quality 50
+2025_12_13_18_06, INFO: Creating frame 10 with quality 51
+2025_12_13_18_06, INFO: Creating frame 11 with quality 52
+2025_12_13_18_06, INFO: Creating frame 12 with quality 53
+2025_12_13_18_06, INFO: Creating frame 13 with quality 54
+2025_12_13_18_06, INFO: Creating frame 14 with quality 55
+2025_12_13_18_06, INFO: Creating frame 15 with quality 56
+2025_12_13_18_06, INFO: Creating frame 16 with quality 57
+2025_12_13_18_06, INFO: Creating frame 17 with quality 58
+2025_12_13_18_06, INFO: Creating frame 18 with quality 59
+2025_12_13_18_06, INFO: Creating frame 19 with quality 60
+2025_12_13_18_06, INFO: Creating frame 20 with quality 61
+2025_12_13_18_06, INFO: Creating frame 21 with quality 62
+2025_12_13_18_06, INFO: Creating frame 22 with quality 63
+2025_12_13_18_06, INFO: Creating frame 23 with quality 64
+2025_12_13_18_06, INFO: Creating frame 24 with quality 65
+2025_12_13_18_06, INFO: Creating frame 25 with quality 66
+2025_12_13_18_06, INFO: Creating frame 26 with quality 67
+2025_12_13_18_06, INFO: Creating frame 27 with quality 68
+2025_12_13_18_06, INFO: Creating frame 28 with quality 69
+2025_12_13_18_06, INFO: Creating frame 29 with quality 70
+2025_12_13_18_06, INFO: Creating frame 30 with quality 71
+2025_12_13_18_06, INFO: Creating frame 31 with quality 72
+2025_12_13_18_06, INFO: Creating frame 32 with quality 73
+2025_12_13_18_06, INFO: Creating frame 33 with quality 74
+2025_12_13_18_06, INFO: Creating frame 34 with quality 75
+2025_12_13_18_06, INFO: Creating frame 35 with quality 76
+2025_12_13_18_06, INFO: Creating frame 36 with quality 77
+2025_12_13_18_06, INFO: Creating frame 37 with quality 78
+2025_12_13_18_06, INFO: Creating frame 38 with quality 79
+2025_12_13_18_06, INFO: Creating frame 39 with quality 80
+2025_12_13_18_06, INFO: Creating frame 40 with quality 81
+2025_12_13_18_06, INFO: Creating frame 41 with quality 82
+2025_12_13_18_06, INFO: Creating frame 42 with quality 83
+2025_12_13_18_06, INFO: Creating frame 43 with quality 84
+2025_12_13_18_06, INFO: Finished creating 35 frames in temp_dir
+2025_12_13_18_06, INFO: Creating GIF file: outputs_data/img_2.gif
+2025_12_13_18_06, INFO: GIF created in: outputs_data/img_2.gif successfully
+2025_12_13_18_06, INFO: Cleaning up temporary directory
+2025_12_13_18_06, INFO: Finished working successfully
+
+2025_12_13_18_06, INFO: Started working
+2025_12_13_18_06, INFO: Making the directory temp_dir
+2025_12_13_18_06, INFO: Copied file from Pinguin.jpg to temp_dir/photo_file 
+2025_12_13_18_06, INFO: Photo is in: temp_dir/photo_file
+2025_12_13_18_06, INFO: Image width: 736 px
+2025_12_13_18_06, INFO: Image height: 876 px
+2025_12_13_18_06, INFO: Creating frame 9 with quality 70
+2025_12_13_18_06, INFO: Creating frame 10 with quality 71
+2025_12_13_18_06, INFO: Creating frame 11 with quality 72
+2025_12_13_18_06, INFO: Creating frame 12 with quality 73
+2025_12_13_18_06, INFO: Creating frame 13 with quality 74
+2025_12_13_18_06, INFO: Creating frame 14 with quality 75
+2025_12_13_18_06, INFO: Creating frame 15 with quality 76
+2025_12_13_18_06, INFO: Creating frame 16 with quality 77
+2025_12_13_18_06, INFO: Creating frame 17 with quality 78
+2025_12_13_18_06, INFO: Creating frame 18 with quality 79
+2025_12_13_18_06, INFO: Creating frame 19 with quality 80
+2025_12_13_18_06, INFO: Creating frame 20 with quality 81
+2025_12_13_18_06, INFO: Creating frame 21 with quality 82
+2025_12_13_18_06, INFO: Creating frame 22 with quality 83
+2025_12_13_18_06, INFO: Creating frame 23 with quality 84
+2025_12_13_18_06, INFO: Creating frame 24 with quality 85
+2025_12_13_18_06, INFO: Creating frame 25 with quality 86
+2025_12_13_18_06, INFO: Creating frame 26 with quality 87
+2025_12_13_18_06, INFO: Creating frame 27 with quality 88
+2025_12_13_18_06, INFO: Creating frame 28 with quality 89
+2025_12_13_18_06, INFO: Creating frame 29 with quality 90
+2025_12_13_18_06, INFO: Creating frame 30 with quality 91
+2025_12_13_18_06, INFO: Creating frame 31 with quality 92
+2025_12_13_18_06, INFO: Creating frame 32 with quality 93
+2025_12_13_18_06, INFO: Creating frame 33 with quality 94
+2025_12_13_18_06, INFO: Creating frame 34 with quality 95
+2025_12_13_18_06, INFO: Creating frame 35 with quality 96
+2025_12_13_18_06, INFO: Creating frame 36 with quality 97
+2025_12_13_18_06, INFO: Creating frame 37 with quality 98
+2025_12_13_18_06, INFO: Creating frame 38 with quality 99
+2025_12_13_18_06, INFO: Creating frame 39 with quality 100
+2025_12_13_18_06, INFO: Creating frame 40 with quality 100
+2025_12_13_18_06, INFO: Creating frame 41 with quality 100
+2025_12_13_18_06, INFO: Creating frame 42 with quality 100
+2025_12_13_18_06, INFO: Creating frame 43 with quality 100
+2025_12_13_18_06, INFO: Creating frame 44 with quality 100
+2025_12_13_18_06, INFO: Creating frame 45 with quality 100
+2025_12_13_18_06, INFO: Creating frame 46 with quality 100
+2025_12_13_18_06, INFO: Creating frame 47 with quality 100
+2025_12_13_18_06, INFO: Creating frame 48 with quality 100
+2025_12_13_18_06, INFO: Creating frame 49 with quality 100
+2025_12_13_18_06, INFO: Creating frame 50 with quality 100
+2025_12_13_18_06, INFO: Creating frame 51 with quality 100
+2025_12_13_18_06, INFO: Creating frame 52 with quality 100
+2025_12_13_18_06, INFO: Creating frame 53 with quality 100
+2025_12_13_18_06, INFO: Finished creating 45 frames in temp_dir
+2025_12_13_18_06, INFO: Creating GIF file: outputs_data/img_4.gif
+2025_12_13_18_06, INFO: GIF created in: outputs_data/img_4.gif successfully
+2025_12_13_18_06, INFO: Cleaning up temporary directory
+2025_12_13_18_06, INFO: Finished working successfully
+
+2025_12_13_18_06, INFO: Started working
+2025_12_13_18_06, INFO: Making the directory temp_dir
+2025_12_13_18_06, ERROR: File not found: errorpath/error
+
+2025_12_13_18_06, INFO: Started working
+2025_12_13_18_06, INFO: Making the directory temp_dir
+2025_12_13_18_06, INFO: Checking the URL: https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2F0%2Fb%2F5%2F3%2Fa%2F6%2F0b53a65cd1849ae5c32389840f93812ec14b9cd3.jpg&w=750&q=75
+2025_12_13_18_06, INFO: Downloaded file from the URL: https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2F0%2Fb%2F5%2F3%2Fa%2F6%2F0b53a65cd1849ae5c32389840f93812ec14b9cd3.jpg&w=750&q=75
+2025_12_13_18_06, INFO: Photo is in: temp_dir/photo_file
+2025_12_13_18_06, INFO: Image width: 462 px
+2025_12_13_18_06, INFO: Image height: 260 px
+2025_12_13_18_06, INFO: Creating frame 9 with quality 70
+2025_12_13_18_06, INFO: Creating frame 10 with quality 71
+2025_12_13_18_06, INFO: Creating frame 11 with quality 72
+2025_12_13_18_06, INFO: Creating frame 12 with quality 73
+2025_12_13_18_06, INFO: Creating frame 13 with quality 74
+2025_12_13_18_06, INFO: Creating frame 14 with quality 75
+2025_12_13_18_06, INFO: Creating frame 15 with quality 76
+2025_12_13_18_06, INFO: Creating frame 16 with quality 77
+2025_12_13_18_06, INFO: Creating frame 17 with quality 78
+2025_12_13_18_06, INFO: Creating frame 18 with quality 79
+2025_12_13_18_06, INFO: Creating frame 19 with quality 80
+2025_12_13_18_06, INFO: Creating frame 20 with quality 81
+2025_12_13_18_06, INFO: Creating frame 21 with quality 82
+2025_12_13_18_06, INFO: Creating frame 22 with quality 83
+2025_12_13_18_06, INFO: Creating frame 23 with quality 84
+2025_12_13_18_06, INFO: Creating frame 24 with quality 85
+2025_12_13_18_06, INFO: Creating frame 25 with quality 86
+2025_12_13_18_06, INFO: Creating frame 26 with quality 87
+2025_12_13_18_06, INFO: Creating frame 27 with quality 88
+2025_12_13_18_06, INFO: Creating frame 28 with quality 89
+2025_12_13_18_06, INFO: Creating frame 29 with quality 90
+2025_12_13_18_06, INFO: Creating frame 30 with quality 91
+2025_12_13_18_06, INFO: Creating frame 31 with quality 92
+2025_12_13_18_06, INFO: Creating frame 32 with quality 93
+2025_12_13_18_06, INFO: Creating frame 33 with quality 94
+2025_12_13_18_06, INFO: Creating frame 34 with quality 95
+2025_12_13_18_06, INFO: Creating frame 35 with quality 96
+2025_12_13_18_06, INFO: Creating frame 36 with quality 97
+2025_12_13_18_06, INFO: Creating frame 37 with quality 98
+2025_12_13_18_06, INFO: Creating frame 38 with quality 99
+2025_12_13_18_06, INFO: Creating frame 39 with quality 100
+2025_12_13_18_06, INFO: Creating frame 40 with quality 100
+2025_12_13_18_06, INFO: Creating frame 41 with quality 100
+2025_12_13_18_06, INFO: Creating frame 42 with quality 100
+2025_12_13_18_06, INFO: Creating frame 43 with quality 100
+2025_12_13_18_06, INFO: Finished creating 35 frames in temp_dir
+2025_12_13_18_06, INFO: Creating GIF file: outputs_data/img_5.gif
+2025_12_13_18_06, INFO: GIF created in: outputs_data/img_5.gif successfully
+2025_12_13_18_06, INFO: Cleaning up temporary directory
+2025_12_13_18_06, INFO: Finished working successfully
+
+2025_12_13_18_06, INFO: Started working
+2025_12_13_18_06, INFO: Making the directory temp_dir
+2025_12_13_18_06, INFO: Copied file from myphoto.jpg to temp_dir/photo_file 
+2025_12_13_18_06, INFO: Photo is in: temp_dir/photo_file
+2025_12_13_18_06, INFO: Image width: 1919 px
+2025_12_13_18_06, INFO: Image height: 1079 px
+2025_12_13_18_06, INFO: Creating frame 9 with quality 5
+2025_12_13_18_06, INFO: Creating frame 10 with quality 7
+2025_12_13_18_06, INFO: Creating frame 11 with quality 9
+2025_12_13_18_06, INFO: Creating frame 12 with quality 11
+2025_12_13_18_06, INFO: Creating frame 13 with quality 13
+2025_12_13_18_06, INFO: Creating frame 14 with quality 15
+2025_12_13_18_06, INFO: Creating frame 15 with quality 17
+2025_12_13_18_06, INFO: Creating frame 16 with quality 19
+2025_12_13_18_06, INFO: Creating frame 17 with quality 21
+2025_12_13_18_06, INFO: Creating frame 18 with quality 23
+2025_12_13_18_06, INFO: Creating frame 19 with quality 25
+2025_12_13_18_06, INFO: Creating frame 20 with quality 27
+2025_12_13_18_06, INFO: Creating frame 21 with quality 29
+2025_12_13_18_06, INFO: Creating frame 22 with quality 31
+2025_12_13_18_06, INFO: Creating frame 23 with quality 33
+2025_12_13_18_06, INFO: Creating frame 24 with quality 35
+2025_12_13_18_06, INFO: Creating frame 25 with quality 37
+2025_12_13_18_06, INFO: Creating frame 26 with quality 39
+2025_12_13_18_06, INFO: Creating frame 27 with quality 41
+2025_12_13_18_06, INFO: Creating frame 28 with quality 43
+2025_12_13_18_06, INFO: Creating frame 29 with quality 45
+2025_12_13_18_06, INFO: Creating frame 30 with quality 47
+2025_12_13_18_06, INFO: Creating frame 31 with quality 49
+2025_12_13_18_06, INFO: Creating frame 32 with quality 51
+2025_12_13_18_06, INFO: Creating frame 33 with quality 53
+2025_12_13_18_06, INFO: Creating frame 34 with quality 55
+2025_12_13_18_06, INFO: Creating frame 35 with quality 57
+2025_12_13_18_06, INFO: Creating frame 36 with quality 59
+2025_12_13_18_06, INFO: Creating frame 37 with quality 61
+2025_12_13_18_06, INFO: Creating frame 38 with quality 63
+2025_12_13_18_06, INFO: Creating frame 39 with quality 65
+2025_12_13_18_06, INFO: Creating frame 40 with quality 67
+2025_12_13_18_06, INFO: Creating frame 41 with quality 69
+2025_12_13_18_06, INFO: Creating frame 42 with quality 71
+2025_12_13_18_06, INFO: Creating frame 43 with quality 73
+2025_12_13_18_06, INFO: Finished creating 35 frames in temp_dir
+2025_12_13_18_06, INFO: Creating GIF file: outputs_data/img_6.gif
+2025_12_13_18_07, INFO: GIF created in: outputs_data/img_6.gif successfully
+2025_12_13_18_07, INFO: Cleaning up temporary directory
+2025_12_13_18_07, INFO: Finished working successfully
+
+2025_12_13_18_07, INFO: Started working
+2025_12_13_18_07, INFO: Making the directory temp_dir
+2025_12_13_18_07, INFO: Checking the URL: https://4kwallpapers.com/images/walls/thumbs_3t/1405.png
+2025_12_13_18_07, INFO: Downloaded file from the URL: https://4kwallpapers.com/images/walls/thumbs_3t/1405.png
+2025_12_13_18_07, INFO: Photo is in: temp_dir/photo_file
+2025_12_13_18_07, INFO: Image width: 1280 px
+2025_12_13_18_07, INFO: Image height: 720 px
+2025_12_13_18_07, INFO: Creating frame 9 with quality 70
+2025_12_13_18_07, INFO: Creating frame 10 with quality 71
+2025_12_13_18_07, INFO: Creating frame 11 with quality 72
+2025_12_13_18_07, INFO: Creating frame 12 with quality 73
+2025_12_13_18_07, INFO: Creating frame 13 with quality 74
+2025_12_13_18_07, INFO: Creating frame 14 with quality 75
+2025_12_13_18_07, INFO: Creating frame 15 with quality 76
+2025_12_13_18_07, INFO: Creating frame 16 with quality 77
+2025_12_13_18_07, INFO: Creating frame 17 with quality 78
+2025_12_13_18_07, INFO: Creating frame 18 with quality 79
+2025_12_13_18_07, INFO: Creating frame 19 with quality 80
+2025_12_13_18_07, INFO: Creating frame 20 with quality 81
+2025_12_13_18_07, INFO: Creating frame 21 with quality 82
+2025_12_13_18_07, INFO: Creating frame 22 with quality 83
+2025_12_13_18_07, INFO: Creating frame 23 with quality 84
+2025_12_13_18_07, INFO: Creating frame 24 with quality 85
+2025_12_13_18_07, INFO: Creating frame 25 with quality 86
+2025_12_13_18_07, INFO: Creating frame 26 with quality 87
+2025_12_13_18_07, INFO: Creating frame 27 with quality 88
+2025_12_13_18_07, INFO: Creating frame 28 with quality 89
+2025_12_13_18_07, INFO: Creating frame 29 with quality 90
+2025_12_13_18_07, INFO: Creating frame 30 with quality 91
+2025_12_13_18_07, INFO: Creating frame 31 with quality 92
+2025_12_13_18_07, INFO: Creating frame 32 with quality 93
+2025_12_13_18_07, INFO: Creating frame 33 with quality 94
+2025_12_13_18_07, INFO: Creating frame 34 with quality 95
+2025_12_13_18_07, INFO: Creating frame 35 with quality 96
+2025_12_13_18_07, INFO: Creating frame 36 with quality 97
+2025_12_13_18_07, INFO: Creating frame 37 with quality 98
+2025_12_13_18_07, INFO: Creating frame 38 with quality 99
+2025_12_13_18_07, INFO: Creating frame 39 with quality 100
+2025_12_13_18_07, INFO: Creating frame 40 with quality 100
+2025_12_13_18_07, INFO: Creating frame 41 with quality 100
+2025_12_13_18_07, INFO: Creating frame 42 with quality 100
+2025_12_13_18_07, INFO: Finished creating 34 frames in temp_dir
+2025_12_13_18_07, INFO: Creating GIF file: outputs_data/img_7.gif
+2025_12_13_18_07, INFO: GIF created in: outputs_data/img_7.gif successfully
+2025_12_13_18_07, INFO: Cleaning up temporary directory
+2025_12_13_18_07, INFO: Finished working successfully
+
+2025_12_13_18_07, INFO: Started working
+2025_12_13_18_07, INFO: Making the directory temp_dir
+2025_12_13_18_07, ERROR: File not found: link.com/missing.jpg
+

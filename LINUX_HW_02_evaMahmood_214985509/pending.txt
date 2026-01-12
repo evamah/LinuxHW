@@ -1,0 +1,7 @@
+==== PENDING TASKS ====
+Buy Coffee,Low
+Create Backup Script,Medium
+Buy Coffee,Low
+Study for Exam,High
+------------
+Total pending tasks: 4

@@ -1,0 +1,7 @@
+Machine Name: DESKTOP-AT8UTRM
+OS Version: VERSION_ID="24.04"
+VERSION="24.04.3 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+NodeJS Version: v18.19.1
+User: evamah
+Time: Wed Nov 26 17:52:18 IST 2025
